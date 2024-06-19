@@ -306,7 +306,9 @@ img {
 }
 
 .icon-plus::before {
-   content: url("/images/play-button-fill-yellow.svg");
+   content: '+';
+   font-size: 2rem;
+   font-weight: 600;
 }
 
  .portfolio-item .item-wrap img {
@@ -470,7 +472,7 @@ color: var(--black-colour);}
 
 .portfolio-item:hover .item-wrap .icon-plus {
  
-   filter: blur(0px);
+   filter: blur(10px);
  }
 
 .item-wrap a img {
